@@ -5,18 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Checkout | E-Shopper</title>
+    <title>Página de Pagamento</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/prettyPhoto.css" rel="stylesheet">
     <link href="css/price-range.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
-	<link href="css/responsive.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->       
+	<link href="css/responsive.css" rel="stylesheet">      
     <link rel="shortcut icon" href="images/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
@@ -100,108 +96,101 @@
 		<div class="container">
 			<div class="breadcrumbs">
 				<ol class="breadcrumb">
-				  <li><a href="#">Home</a></li>
-				  <li class="active">Check out</li>
+				  <li><a href="#">Página Inicial</a></li>
+				  <li class="active">Confirmação</li>
 				</ol>
 			</div><!--/breadcrums-->
 
 			<div class="step-one">
-				<h2 class="heading">Step1</h2>
+				<h2 class="heading">Passo 1</h2>
 			</div>
 			<div class="checkout-options">
-				<h3>New User</h3>
-				<p>Checkout options</p>
+				<h3>Novo Usuário</h3>
+				<p>Opções</p>
 				<ul class="nav">
 					<li>
-						<label><input type="checkbox"> Register Account</label>
+						<label><input type="checkbox"> Registrar Nova Conta</label>
 					</li>
 					<li>
-						<label><input type="checkbox"> Guest Checkout</label>
+						<label><input type="checkbox"> Comprar de maneira anônima</label>
 					</li>
 					<li>
-						<a href=""><i class="fa fa-times"></i>Cancel</a>
+						<a href=""><i class="fa fa-times"></i>Cancelar</a>
 					</li>
 				</ul>
 			</div><!--/checkout-options-->
 
 			<div class="register-req">
-				<p>Please use Register And Checkout to easily get access to your order history, or use Checkout as Guest</p>
+				<p>Por favor, use o registro para ter acesso fácil ao seu histórico de pedidos ou use a compra anônima como convidado (não tem acesso ao histórico).</p>
 			</div><!--/register-req-->
 
 			<div class="shopper-informations">
 				<div class="row">
 					<div class="col-sm-3">
 						<div class="shopper-info">
-							<p>Shopper Information</p>
+							<p>Informação do comprador</p>
 							<form>
-								<input type="text" placeholder="Display Name">
-								<input type="text" placeholder="User Name">
-								<input type="password" placeholder="Password">
-								<input type="password" placeholder="Confirm password">
+								<input type="text" placeholder="Seu nome">
+								<input type="text" placeholder="Nome de usuário">
+								<input type="password" placeholder="Senha">
+								<input type="password" placeholder="Confirmar Senha">
 							</form>
-							<a class="btn btn-primary" href="">Get Quotes</a>
-							<a class="btn btn-primary" href="">Continue</a>
+							<a class="btn btn-primary" href="">Continuar</a>
 						</div>
 					</div>
 					<div class="col-sm-5 clearfix">
 						<div class="bill-to">
-							<p>Bill To</p>
+							<p>Comprando para</p>
 							<div class="form-one">
 								<form>
-									<input type="text" placeholder="Company Name">
+									<input type="text" placeholder="Nome">
 									<input type="text" placeholder="Email*">
-									<input type="text" placeholder="Title">
-									<input type="text" placeholder="First Name *">
-									<input type="text" placeholder="Middle Name">
-									<input type="text" placeholder="Last Name *">
-									<input type="text" placeholder="Address 1 *">
-									<input type="text" placeholder="Address 2">
+									<input type="text" placeholder="Cidade">
+									<input type="text" placeholder="Primeiro nome *">
+									<input type="text" placeholder="Nome do meio">
+									<input type="text" placeholder="Ultimo nome*">
+									<input type="text" placeholder="Endereço 1*">
+									<input type="text" placeholder="Endereço 2">
 								</form>
 							</div>
 							<div class="form-two">
 								<form>
 									<input type="text" placeholder="Zip / Postal Code *">
 									<select>
-										<option>-- Country --</option>
-										<option>United States</option>
-										<option>Bangladesh</option>
-										<option>UK</option>
-										<option>India</option>
-										<option>Pakistan</option>
-										<option>Ucrane</option>
-										<option>Canada</option>
-										<option>Dubai</option>
+										<option>-- País --</option>
+										<option>Brasil</option>
+										<option>Estados Unidos</option>
+										<option>França</option>
 									</select>
 									<select>
-										<option>-- State / Province / Region --</option>
-										<option>United States</option>
-										<option>Bangladesh</option>
-										<option>UK</option>
-										<option>India</option>
-										<option>Pakistan</option>
-										<option>Ucrane</option>
-										<option>Canada</option>
-										<option>Dubai</option>
+										<option>-- Estado / Província / Região --</option>
+										<option>Ceará</option>
+										<option>Paraíba</option>
+										<option>Pernambuco</option>
+										<option>Califórnia</option>
+										<option>Texas</option>
+										<option>Flórida</option>
+										<option>A Nouvelle Aquitaine</option>
+										<option>O Grand Est</option>
+										<option>Auverghe Rhône-Alpes</option>
 									</select>
-									<input type="password" placeholder="Confirm password">
-									<input type="text" placeholder="Phone *">
-									<input type="text" placeholder="Mobile Phone">
-									<input type="text" placeholder="Fax">
+									<input type="password" placeholder="Confirmar Senha">
+									<input type="text" placeholder="Número com DDD*">
 								</form>
 							</div>
 						</div>
 					</div>
 					<div class="col-sm-4">
 						<div class="order-message">
-							<p>Shipping Order</p>
-							<textarea name="message"  placeholder="Notes about your order, Special Notes for Delivery" rows="16"></textarea>
-							<label><input type="checkbox"> Shipping to bill address</label>
+							<p>Ordem de Compra</p>
+							<textarea name="message"  placeholder="Notas sobre o seu pedido" rows="16"></textarea>
+							<label><input type="checkbox"> Envio para endereço de cobrança</label>
 						</div>	
 					</div>					
 				</div>
 			</div>
 			<div class="review-payment">
-				<h2>Review & Payment</h2>
+				<h2>Revisão e pagamento</h2>
 			</div>
 
 			<div class="table-responsive cart_info">
@@ -210,8 +199,8 @@
 						<tr class="cart_menu">
 							<td class="image">Item</td>
 							<td class="description"></td>
-							<td class="price">Price</td>
-							<td class="quantity">Quantity</td>
+							<td class="price">Preço</td>
+							<td class="quantity">Quantidade</td>
 							<td class="total">Total</td>
 							<td></td>
 						</tr>
@@ -223,10 +212,10 @@
 							</td>
 							<td class="cart_description">
 								<h4><a href="">Colorblock Scuba</a></h4>
-								<p>Web ID: 1089772</p>
+								<p>ID: 1089772</p>
 							</td>
 							<td class="cart_price">
-								<p>$59</p>
+								<p>R$80</p>
 							</td>
 							<td class="cart_quantity">
 								<div class="cart_quantity_button">
@@ -236,7 +225,7 @@
 								</div>
 							</td>
 							<td class="cart_total">
-								<p class="cart_total_price">$59</p>
+								<p class="cart_total_price">R$80</p>
 							</td>
 							<td class="cart_delete">
 								<a class="cart_quantity_delete" href=""><i class="fa fa-times"></i></a>
@@ -249,10 +238,10 @@
 							</td>
 							<td class="cart_description">
 								<h4><a href="">Colorblock Scuba</a></h4>
-								<p>Web ID: 1089772</p>
+								<p>ID: 1089772</p>
 							</td>
 							<td class="cart_price">
-								<p>$59</p>
+								<p>R$80</p>
 							</td>
 							<td class="cart_quantity">
 								<div class="cart_quantity_button">
@@ -262,7 +251,7 @@
 								</div>
 							</td>
 							<td class="cart_total">
-								<p class="cart_total_price">$59</p>
+								<p class="cart_total_price">R$80</p>
 							</td>
 							<td class="cart_delete">
 								<a class="cart_quantity_delete" href=""><i class="fa fa-times"></i></a>
@@ -274,10 +263,10 @@
 							</td>
 							<td class="cart_description">
 								<h4><a href="">Colorblock Scuba</a></h4>
-								<p>Web ID: 1089772</p>
+								<p>ID: 1089772</p>
 							</td>
 							<td class="cart_price">
-								<p>$59</p>
+								<p>R$80</p>
 							</td>
 							<td class="cart_quantity">
 								<div class="cart_quantity_button">
@@ -287,7 +276,7 @@
 								</div>
 							</td>
 							<td class="cart_total">
-								<p class="cart_total_price">$59</p>
+								<p class="cart_total_price">R$80</p>
 							</td>
 							<td class="cart_delete">
 								<a class="cart_quantity_delete" href=""><i class="fa fa-times"></i></a>
@@ -298,20 +287,20 @@
 							<td colspan="2">
 								<table class="table table-condensed total-result">
 									<tr>
-										<td>Cart Sub Total</td>
-										<td>$59</td>
+										<td>Total do Carrinho</td>
+										<td>R$240</td>
 									</tr>
 									<tr>
-										<td>Exo Tax</td>
-										<td>$2</td>
+										<td>Imposto</td>
+										<td>R$3,50</td>
 									</tr>
 									<tr class="shipping-cost">
-										<td>Shipping Cost</td>
-										<td>Free</td>										
+										<td>Taxa de Envio</td>
+										<td>Grátis</td>										
 									</tr>
 									<tr>
 										<td>Total</td>
-										<td><span>$61</span></td>
+										<td><span>R$243,50</span></td>
 									</tr>
 								</table>
 							</td>
@@ -321,13 +310,13 @@
 			</div>
 			<div class="payment-options">
 					<span>
-						<label><input type="checkbox"> Direct Bank Transfer</label>
+						<label><input type="checkbox"> Transferência Bancária</label>
 					</span>
 					<span>
-						<label><input type="checkbox"> Check Payment</label>
+						<label><input type="checkbox"> PIX</label>
 					</span>
 					<span>
-						<label><input type="checkbox"> Paypal</label>
+						<label><input type="checkbox"> Bitcoin</label>
 					</span>
 				</div>
 		</div>
@@ -356,8 +345,8 @@
 										<i class="fa fa-play-circle-o"></i>
 									</div>
 								</a>
-								<p>Circle of Hands</p>
-								<h2>24 DEC 2014</h2>
+								<p>Weskley</p>
+								<h2>Gerente de Projeto</h2>
 							</div>
 						</div>
 						
@@ -371,8 +360,8 @@
 										<i class="fa fa-play-circle-o"></i>
 									</div>
 								</a>
-								<p>Circle of Hands</p>
-								<h2>24 DEC 2014</h2>
+								<p>Henrique</p>
+								<h2>Arquiteto de Software</h2>
 							</div>
 						</div>
 						
@@ -386,107 +375,18 @@
 										<i class="fa fa-play-circle-o"></i>
 									</div>
 								</a>
-								<p>Circle of Hands</p>
-								<h2>24 DEC 2014</h2>
+								<p>Bruno</p>
+								<h2>Analista de software</h2>
 							</div>
-						</div>
-						
-						<div class="col-sm-3">
-							<div class="video-gallery text-center">
-								<a href="#">
-									<div class="iframe-img">
-										<img src="images/home/iframe4.png" alt="" />
-									</div>
-									<div class="overlay-icon">
-										<i class="fa fa-play-circle-o"></i>
-									</div>
-								</a>
-								<p>Circle of Hands</p>
-								<h2>24 DEC 2014</h2>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="address">
-							<img src="images/home/map.png" alt="" />
-							<p>505 S Atlantic Ave Virginia Beach, VA(Virginia)</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		
-		<div class="footer-widget">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-2">
-						<div class="single-widget">
-							<h2>Service</h2>
-							<ul class="nav nav-pills nav-stacked">
-								<li><a href="">Online Help</a></li>
-								<li><a href="">Contact Us</a></li>
-								<li><a href="">Order Status</a></li>
-								<li><a href="">Change Location</a></li>
-								<li><a href="">FAQ’s</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-sm-2">
-						<div class="single-widget">
-							<h2>Quock Shop</h2>
-							<ul class="nav nav-pills nav-stacked">
-								<li><a href="">T-Shirt</a></li>
-								<li><a href="">Mens</a></li>
-								<li><a href="">Womens</a></li>
-								<li><a href="">Gift Cards</a></li>
-								<li><a href="">Shoes</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-sm-2">
-						<div class="single-widget">
-							<h2>Policies</h2>
-							<ul class="nav nav-pills nav-stacked">
-								<li><a href="">Terms of Use</a></li>
-								<li><a href="">Privecy Policy</a></li>
-								<li><a href="">Refund Policy</a></li>
-								<li><a href="">Billing System</a></li>
-								<li><a href="">Ticket System</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-sm-2">
-						<div class="single-widget">
-							<h2>About Shopper</h2>
-							<ul class="nav nav-pills nav-stacked">
-								<li><a href="">Company Information</a></li>
-								<li><a href="">Careers</a></li>
-								<li><a href="">Store Location</a></li>
-								<li><a href="">Affillate Program</a></li>
-								<li><a href="">Copyright</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-sm-3 col-sm-offset-1">
-						<div class="single-widget">
-							<h2>About Shopper</h2>
-							<form action="#" class="searchform">
-								<input type="text" placeholder="Your email address" />
-								<button type="submit" class="btn btn-default"><i class="fa fa-arrow-circle-o-right"></i></button>
-								<p>Get the most recent updates from <br />our site and be updated your self...</p>
-							</form>
-						</div>
-					</div>
-					
-				</div>
-			</div>
-		</div>
-		
 		<div class="footer-bottom">
 			<div class="container">
 				<div class="row">
-					<p class="pull-left">Copyright © 2013 E-SHOPPER Inc. All rights reserved.</p>
-					<p class="pull-right">Designed by <span><a target="_blank" href="http://www.themeum.com">Themeum</a></span></p>
+					<p class="pull-left">Copyright © 2022 Ai-SHOP Inc. Todos os direitos reservados.</p>
 				</div>
 			</div>
 		</div>
